@@ -19,6 +19,6 @@ for item in data:
 #urls = reversed(urls)
 
 # Save the URLs to a text file
-with open('urls.txt', 'w') as file:
+with open('urls_exracted.txt', 'w') as file:
     for url in urls:
         file.write(url + '\n')
