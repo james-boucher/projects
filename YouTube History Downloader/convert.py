@@ -1,5 +1,8 @@
 import json
+import os
 
+# Change the working directory to the script's directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Load the JSON data from the file with specified encoding
 with open('watch-history.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
